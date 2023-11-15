@@ -439,8 +439,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 59
         y: 191
-        width: 122
-        height: 48
+        width: 116
+        height: 64
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -459,6 +459,15 @@ MonoBehaviour:
           isSystemEvent: 1
           isGlobal: 0
         toState: "\u5730\u9F20\u6B7B\u4EA1"
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: "\u6E38\u620F\u7ED3\u675F\u4E8B\u4EF6"
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: "\u5730\u9F20\u672A\u663E\u793A"
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -598,8 +607,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 294
         y: 224
-        width: 100
-        height: 32
+        width: 102
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -608,6 +617,15 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
+        toState: "\u5730\u9F20\u672A\u663E\u793A"
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: "\u6E38\u620F\u7ED3\u675F\u4E8B\u4EF6"
+          isSystemEvent: 0
+          isGlobal: 1
         toState: "\u5730\u9F20\u672A\u663E\u793A"
         linkStyle: 0
         linkConstraint: 0
@@ -810,6 +828,9 @@ MonoBehaviour:
       isSystemEvent: 1
       isGlobal: 0
     - name: "\u5206\u6570\u589E\u52A0\u547D\u4EE4"
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: "\u6E38\u620F\u7ED3\u675F\u4E8B\u4EF6"
       isSystemEvent: 0
       isGlobal: 1
     globalTransitions: []
