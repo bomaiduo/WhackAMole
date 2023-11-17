@@ -541,12 +541,12 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: "\u5730\u9F20\u5B58\u5728\u65F6\u957F"
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 3
+          value: 0
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1

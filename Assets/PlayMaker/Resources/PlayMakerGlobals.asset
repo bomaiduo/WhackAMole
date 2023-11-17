@@ -13,7 +13,19 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: "\u5730\u9F20\u51FA\u73B0\u9891\u7387"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: "\u5730\u9F20\u5B58\u5728\u65F6\u957F"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables:
     - useVariable: 1
       name: "\u5206\u6570"
@@ -21,6 +33,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: CountDOwnCount
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 5
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -36,7 +54,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 00000000000000000000000000000000
   events:
   - "\u663E\u793A\u5730\u9F20"
   - "\u5206\u6570\u589E\u52A0\u547D\u4EE4"
