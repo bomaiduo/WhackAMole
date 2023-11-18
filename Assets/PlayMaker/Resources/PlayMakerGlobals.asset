@@ -39,8 +39,20 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 5
-    boolVariables: []
-    stringVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: "\u662F\u5426\u6709\u4E0B\u4E00\u5173"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: "\u4E0B\u4E00\u5173\u540D\u5B57"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -54,7 +66,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000
   events:
   - "\u663E\u793A\u5730\u9F20"
   - "\u5206\u6570\u589E\u52A0\u547D\u4EE4"

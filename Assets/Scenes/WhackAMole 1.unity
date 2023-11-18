@@ -1419,12 +1419,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.LoadScene
+        - HutongGames.PlayMaker.Actions.DebugLog
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 20a9b100
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 20a9b1009c59e501
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1441,6 +1443,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: NExtLevel
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1475,12 +1483,12 @@ MonoBehaviour:
         stringParams:
         - 
         - 
-        byteData: 01000000
+        byteData: 010000000000000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0700000012000000100000002a000000110000001700000017000000
+        paramDataType: 0700000012000000100000002a000000110000001700000017000000070000001200000001000000
         paramName:
         - sceneReference
         - sceneByName
@@ -1489,8 +1497,11 @@ MonoBehaviour:
         - success
         - successEvent
         - failureEvent
-        paramDataPos: 00000000000000000000000000000000000000000000000001000000
-        paramByteDataSize: 04000000000000000000000000000000000000000000000000000000
+        - logLevel
+        - text
+        - sendToUnityLog
+        paramDataPos: 00000000000000000000000000000000000000000000000001000000040000000100000008000000
+        paramByteDataSize: 04000000000000000000000000000000000000000000000000000000040000000000000001000000
     events:
     - name: "\u70B9\u51FB"
       isSystemEvent: 0
@@ -2182,21 +2193,21 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 5
+        value: 20
       boolVariables:
       - useVariable: 1
         name: "\u8BBE\u7F6E\u662F\u5426\u6709\u4E0B\u4E00\u5173"
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 1
+        value: 0
       stringVariables:
       - useVariable: 1
         name: "\u8BBE\u7F6E\u4E0B\u4E00\u5173\u540D\u5B57"
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: WhackAMole 1
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -6381,7 +6392,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
+  m_Color: {r: 0.1509434, g: 0.098967604, b: 0.098967604, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
